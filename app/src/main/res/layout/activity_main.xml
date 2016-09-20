@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/capture9" />
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="START"
+        android:id="@+id/button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="130dp"
+
+        android:textColor="#000000"
+        android:background="#ffffff"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="STOP"
+        android:id="@+id/button2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="250dp"
+
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="EXIT"
+        android:id="@+id/button3"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="130dp"
+
+        android:textColor="#000000"
+        android:background="#ffffff"
+        />
+
+</RelativeLayout>
